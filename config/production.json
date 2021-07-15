@@ -1,0 +1,8 @@
+{
+    "mongoURI":"mongodb+srv://devconnect:A9430010a@cluster0.dksvq.mongodb.net/developerconnect?retryWrites=true&w=majority",
+    "mysecret":"merndevconnect",
+    "githubClientId":"16f1955ad159df5f3db7",
+    "githubSecret":"04752056e3b475775b26628c536aa892bfb1a035"
+
+    
+}

@@ -1,0 +1,306 @@
+/* Global Styles */
+:root {
+  --primary-color: #17a2b8;
+  --dark-color: #343a40;
+  --light-color: #f4f4f4;
+  --danger-color: #dc3545;
+  --success-color: #28a745;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  background-color: #fff;
+  color: #333;
+}
+
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+ul {
+ display:flex;
+  list-style: none;
+  margin-top: 2%;
+margin-right: 15%;
+}
+
+li{
+
+  margin-left:20%;
+ 
+}
+
+
+
+
+
+li>a{
+
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: #333;
+font-weight: 400;
+font-size: 28px;
+
+}
+
+li>a:hover{
+  border-bottom: 2px solid rgb(12, 105, 12);
+}
+
+
+/* 
+img {
+  width: 100%;
+} */
+
+.main-menu{
+  display: flex;
+  margin-top: 1%;
+justify-content: space-between;
+}
+
+/* Utilities */
+/* .container {
+  max-width: 1100px;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 2rem;
+  margin-top: 6rem;
+  margin-bottom: 3rem;
+  display: flex;
+
+} */
+
+
+
+.logo{
+  /* display: flex;
+  margin-left:5%; */
+ background-image:url('./img/B3.png');
+width:288px;
+height: 130px;
+ background-repeat: no-repeat;
+
+}
+
+
+
+
+
+.text-center {
+  text-align: center;
+ 
+}
+
+.text-primary {
+  color: var(--primary-color);
+}
+
+.text-dark {
+  color: var(--dark-color);
+}
+
+/* Padding */
+
+.alert {
+  padding: 0.4rem;
+  margin-top: 0.4rem;
+  opacity: 0.9;
+  background: var(--light-color);
+  color: #333;
+  width: 25%;
+margin-left: 40%;
+}
+
+.btn-primary,
+.bg-primary,
+.badge-primary,
+.alert-primary {
+  background: var(--primary-color);
+  color: #fff;
+}
+
+.btn-light,
+.bg-light,
+.badge-light,
+.alert-light {
+  background: var(--light-color);
+  color: #333;
+}
+
+.btn-dark,
+.bg-dark,
+.badge-dark,
+.alert-dark {
+  background: var(--dark-color);
+  color: #fff;
+}
+
+.btn-danger,
+.bg-danger,
+.badge-danger,
+.alert-danger {
+  background: var(--danger-color);
+  color: #fff;
+}
+
+.btn-success,
+.bg-success,
+.badge-success,
+.alert-success {
+  background: var(--success-color);
+  color: #fff;
+}
+
+.btn-white,
+.bg-white,
+.badge-white,
+.alert-white {
+  background: #fff;
+  color: #333;
+  border: #ccc solid 1px;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.bg-light,
+.badge-light {
+  border: #ccc solid 1px;
+}
+
+.round-img {
+  border-radius: 50%;
+}
+
+
+
+
+
+
+.common_form{
+    
+
+  align-items: center;
+display: flex;
+flex-direction: column;
+ 
+}
+
+
+
+.common_form input[type=text]{
+  width:450px;
+  height: 40px;
+  margin-top: 10px;
+  border-radius: 4px;
+  border: 1px solid rgb(109, 103, 103);
+ 
+
+}
+
+.common_form input[type=email]{
+  width:450px;
+  height: 40px;
+  margin-top: 10px;
+  border-radius: 4px;
+  border: 1px solid rgb(109, 103, 103);
+ 
+
+}
+
+
+
+.common_form input[type=password]{
+  width:450px;
+  height: 40px;
+  margin-top: 10px;
+  border-radius: 4px;
+  border: 1px solid rgb(109, 103, 103);
+ 
+
+}
+
+
+
+
+
+.common_form input[type=text]:focus{
+  border: none;
+  border-radius: 4px;
+outline: 2px solid rgb(100, 100, 243)  ;
+
+
+}.common_form input[type=password]:focus{
+  border: none;
+  border-radius: 4px;
+outline: 2px solid rgb(100, 100, 243)  ;
+}
+
+
+.btnnew{
+background-color:  rgb(100, 100, 243);
+  color: #fff;
+  padding: 20px;
+  border: none;
+  padding:15px 40px;
+
+  margin-top: 35px;
+align-items: center;
+display: block;
+  cursor: pointer;
+}
+.btnnew:hover{
+  background-color:  rgb(116, 116, 180);
+}
+.blocks{
+  display: block;
+}
+
+.m5{
+  margin-top: 15px;
+}
+
+
+.profilecontainer{
+  width: 650px;
+  height: 420px;
+  margin-left: 28%;
+  /* background-color: #afb5bb; */
+  text-align: center;
+}
+
+.profilecontainer .ptext{
+  text-align: center;
+  margin-top: 40px;
+  text-transform: capitalize;
+
+}
+
+.demoinfo>span{
+  text-align: center;
+  display: block;
+  margin-top:3%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 700;
+}
+
+.m6{
+  margin-top: 6px;
+}
+
+.mb6
+
+{
+  margin-bottom: 5%;
+}
